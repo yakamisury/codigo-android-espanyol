@@ -1,0 +1,7 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/nuevoJuegoItem" android:title="Nuevo Juego"></item>
+        <item android:id="@+id/informacionItem" android:title="Informacion"></item>
+        <item android:id="@+id/opcionesItem" android:title="Opciones"></item>
+    </menu>
+    

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/madera" >
+
+    <TextView
+        android:id="@+id/palabraView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/palabra"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/letraButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/palabraView"
+        android:layout_marginTop="79dp"
+        android:text="@string/validarletrabutton" />
+
+    <EditText
+        android:id="@+id/letraEditText"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/palabraView"
+        android:layout_centerHorizontal="true"
+        android:ems="10" />
+
+    <org.ahorcado.android.AhorcadoView
+        android:id="@+id/ahorcadoView"
+        android:layout_width="86dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:layout_toRightOf="@+id/letraEditText" />
+
+    <TextView
+        android:id="@+id/fallosView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ahorcadoView"
+        android:layout_marginBottom="34dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/palabraView"
+        android:text="@string/fallos"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
