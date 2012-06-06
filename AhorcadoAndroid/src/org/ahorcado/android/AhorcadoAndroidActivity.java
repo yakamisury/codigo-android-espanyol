@@ -139,8 +139,7 @@ public class AhorcadoAndroidActivity extends Activity {
 		for (int x = 0; x < palabraSeleccionada.length(); x++) {
 			String caracter = "" + palabraSeleccionada.charAt(x);
 			// creamos una variable booleana para faber si se ha encontrado un
-			// caracter
-			// de la palabra seleccionada
+			// caracter de la palabra seleccionada
 			boolean encontradoCaracter = false;
 			// hacemos un bucle for each en el que se comprueba si realmente
 			// esta la letra introducida
