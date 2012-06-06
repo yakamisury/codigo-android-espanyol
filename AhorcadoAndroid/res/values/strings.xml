@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AhorcadoAndroidActivity!</string>
+    <string name="app_name">AhorcadoAndroid</string>
+    <string name="estado">Estado</string>
+    <string name="palabra">Palabra</string>
+    <string name="validarletra">Validar letra</string>
+    <string name="fallos">Fallos</string>
+    <string name="validarletrabutton">Validar letra</string>
+    <string name="juegonuevo">Nuevo Juego</string>
+    <string name="opciones">Opciones</string>
+    <string name="informacion">Información</string>
+    <string name="informaciones">Este es un juego en que el objetivo es adivinar la palabra oculta y evitar tener mas de "n" fallos donde "n" es el número de fallos máximo, con cada fallo pondremos una parte del cuerpo de nuestro ahorcado</string>
+    <string name="informaciones2"> aplicación realizada por: toniwy</string>
+    <string name="nivel">Nivel del juego:</string>
+    <string name="normal">Normal</string>
+    <string name="dificil">Dificil</string>
+    <string name="dosJugadores">2 jugadores</string>
+    <string name="jugarSolo">Jugar Solo</string>
+    <string name="aJugar">Jugar</string>
+    <string name="inf">"introduce una palabra para que el otro jugador la adivine o no "</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/madera" >
+
+    <EditText
+        android:id="@+id/palabraIntroducidaEditText"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/aJugarButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/palabraIntroducidaEditText"
+        android:layout_marginTop="46dp"
+        android:text="@string/aJugar" />
+
+    <TextView
+        android:id="@+id/InfTextView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/palabraIntroducidaEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:text="@string/inf"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
